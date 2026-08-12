@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: var(--font-2);
+    color: var(--light-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+button, input {
+    outline: none;
+    border: none;
+}
