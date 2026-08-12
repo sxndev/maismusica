@@ -19,18 +19,7 @@
 }
 
 .header .logo{
-    font-family: var(--font-1);
-    font-size:30px;
-}
-
-#main {
-    background-color: var(--bg-color);
-    height: 90vh;
-}
-
-#main img {
-    width: 200px;
-    object-fit: cover;
+    font-size:20px;
 }
 
 footer {
