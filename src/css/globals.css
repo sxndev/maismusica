@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    padding:0px 20px;
+    background-color: #b65720; 
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .logo{
+    font-size:20px;
+}
+main {
+    color: white;
+    padding-top:10vh; 
+}
+
+footer {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
