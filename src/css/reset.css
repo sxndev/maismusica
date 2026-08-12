@@ -13,13 +13,14 @@ html{
 }
 
 body{
-    font-family: var(--font-2);
-    color: var(--light-color);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202020;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: var(--light-color);
+    color: white;
 }
 
 button, input {
