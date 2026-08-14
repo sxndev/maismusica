@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 14vh;
     width: 100vw;
     padding:0px 20px;
     background-color: #b65720; 
@@ -19,11 +19,12 @@
 }
 
 .header .logo{
-    font-size:20px;
+    font-size:16px;
+    font-style: italic;
 }
 main {
     color: white;
-    padding-top:10vh; 
+    padding-top:14vh; 
 }
 
 footer {
