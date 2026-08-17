@@ -19,8 +19,26 @@
     padding: 0px 35px;
 }
 .header a{
+    position: relative;
     font-size: 18px;
 }
+
+.header a::after{
+    content: "";
+    bottom: -10px;
+    width: 0%;
+    height: 4px;
+    left: 0;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    transition: width 0.7s ease-in-out;
+}
+
+.header a:hover::after{
+    width: 100%;
+}
+
 .header .logo{
     font-size:16px;
     font-style: italic;
