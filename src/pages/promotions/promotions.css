@@ -109,13 +109,13 @@ main {
 }
 
 .container-info-produto h3 {
-  font-size: 16px;
+  font-size: clamp(12px,3vw,16px);
   font-weight: 600;
   color: #1b140f;
 }
 
 .container-info-produto p {
-  font-size: 12px;
+  font-size: clamp(10px,1vw,12px);
   line-height: 1.45;
   color: #5c4a3e;
 }
@@ -129,7 +129,7 @@ main {
 }
 
 .container-compra h3 {
-  font-size: 17px;
+  font-size: clamp(15px,3vw,18px);
   font-weight: 700;
   color: #8c3410;
 }
@@ -169,10 +169,45 @@ main {
 }
 .icone-desconto h3{
     color: #faf9f8;
-    font-size: 15px;
+    font-size: clamp(12px,3vw,16px);
     letter-spacing: 1px;
 }
 .container-valores-produtos-descontos h4{
   color: rgb(140, 140, 140);
-  font-size: 15px;
+  font-size: clamp(12px);
+}
+
+
+/*responsividade*/
+@media (max-width: 622px) and (min-width: 375px){
+  /*cards dos produtos*/
+  .cards-produtos{
+    width: 220px;
+    gap: 12px;
+    border-radius: 14px;
+    background-color: rgb(243, 236, 217);
+    padding: 10px;
+  }
+  /*textos iniciais*/
+  .container-textos-instrumentos{
+    gap: 20px;
+  }
+  .container-textos-instrumentos h1{
+    width: 100%;
+    text-align: center;
+    font-size: clamp(40px,7vw,65px);
+  }
+  .container-textos-instrumentos p{
+    width: 100%;
+    text-align: center;
+  }
+
+  /*container textos itens disponiveis*/
+
+  .container-intro-instrumentos h2,h3{
+    font-size: clamp(12px,3vw,16px);
+  }
+  footer p{
+    font-size: 14px;
+  }
 }
