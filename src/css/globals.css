@@ -15,9 +15,12 @@
 .header nav ul {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 35px;
+    padding: 0px 35px;
 }
-
+.header a{
+    font-size: 18px;
+}
 .header .logo{
     font-size:16px;
     font-style: italic;
@@ -25,10 +28,11 @@
 main {
     color: white;
     padding-top:14vh; 
+    
 }
 
 footer {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
