@@ -5,7 +5,9 @@
 #hero {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px;
     width: 100%;
     height:100%; 
     background: url('../assets/background.jpg') center / cover no-repeat ; 
@@ -14,7 +16,6 @@
 #text-content { 
     width:100%;
     height:100%;
-    padding: 50px;
     font-size: 25px;
 }
 
@@ -33,3 +34,17 @@
     height:100%;
 }
 
+#to-products-btn{
+    background-color: #b65720;
+    width: 300px;
+    height: fit-content;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform ease-in-out 0.5s;
+}
+
+#to-products-btn:hover{
+    transform: translateY(-5px);
+}
