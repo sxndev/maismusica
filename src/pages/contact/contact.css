@@ -20,6 +20,7 @@ form {
   justify-content: space-around;
   gap: 10px;
   background-color: #434343;
+  min-width: 300px;
   width: 30vw;
   height: 100%;
   border-radius: 20px;
@@ -40,6 +41,11 @@ form {
 .input-content input {
   border-radius: 3px;
   height: 30px;
+}
+
+.input-content label{
+    font-size: 15px;
+    text-wrap: nowrap;
 }
 
 #submit-btn {

@@ -102,6 +102,9 @@
     transform: translateX(0);
   }
 
+  nav.menu-active .burguer-btn::after{
+    rotate:45deg;
+  }
   .burguer-btn-content {
     display: flex;
   }

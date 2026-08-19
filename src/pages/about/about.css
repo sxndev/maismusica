@@ -1,26 +1,32 @@
-main{
-    padding: 30px;
+main {
+  padding: 30px;
+}
+main h1 {
+  text-align: center;
+  font-size: clamp(65px, 7vw, 95px);
+  color: #efe7d6;
+  line-height: 0.99;
+  font-family: "Fraunces", serif;
+}
+.text-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
 }
 
-.text-content{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 30px;
+.text-content h2 {
+  background-color: #b65720;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.text-content span {
+  background-color: #b65720;
+  font-style: italic;
+  font-weight: bold;
 }
 
-.text-content h2{
-    background-color: #b65720;
-    padding: 10px 20px;
-    border-radius: 10px;
-} 
-.text-content span{
-    background-color: #b65720;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.text-content p{
-    margin: 10px;
-    padding-left: 30px;
+.text-content p {
+  margin: 10px;
+  padding-left: 30px;
 }
